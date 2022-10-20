@@ -1,0 +1,265 @@
+/* ==================== Подключение обнуляющего стиля === (Обнуляет дефолтные настройки) === Начало === 2022-10 ==================== */
+@import "reset.css";
+/* ==================== Подключение обнуляющего стиля === (Обнуляет дефолтные настройки) === Конец === 2022-10 ==================== */
+
+/* ==================== Подключение шрифтов ===  === Начало === 2022-10 ==================== */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+/* ==================== Подключение шрифтов ===  === Конец === 2022-10 ==================== */
+
+img {
+  width: 100%;
+}
+body {
+  background-color: #e5e8ed;
+}
+header.header {
+  background-color: #f89828;
+  max-width: 810px;
+  margin: 0 auto 30px;
+  border-radius: 5px;
+  font-family: "Lato";
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 700;
+}
+/* ==================== Первая статья === (Подробнее) === Начало === 2022-10 ==================== */
+.index-article {
+  margin: 0px 0px 120px 0px;
+}
+.article {
+  font-family: "Lato";
+}
+.article__container {
+  max-width: 810px;
+  margin: 0 auto;
+}
+.article__title {
+  margin: 0px 0px 92px 0px;
+}
+.article__body-img {
+  margin: 0px 0px 60px 0px;
+}
+.article__img {
+  max-width: 100%;
+}
+.article__text *:last-child {
+  margin: 0px 0px 0px 0px;
+}
+.article__paragraph {
+  margin: 0px 0px 24px 0px;
+}
+.article__paragraph_bold {
+  font-weight: 700;
+}
+.article__list {
+  margin: 0px 0px 10px 0px;
+}
+.list {
+  color: #424551;
+  line-height: 1.6;
+}
+.list__item {
+  padding-left: 32px;
+  background: url("../img/svg/Vector.svg") 0 5px no-repeat;
+  min-height: 21px;
+  margin: 0px 0px 10px 0px;
+}
+.list__item:last-child {
+  margin: 0px 0px 0px 0px;
+}
+/* ==================== Первая статья === (Подробнее) === Конец === 2022-10 ==================== */
+
+/* ==================== Вторая статья === (Подробнее) === Начало === 2022-10 ==================== */
+/* === (Первый блок) === Начало === 2022-10 ==================== */
+.index-about {
+  margin: 0px 0px 180px 0px;
+}
+.about {
+  font-family: "Lato";
+}
+
+.about__who-we-are {
+  margin: 0px 0px 180px 0px;
+}
+
+.who-we-are__container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+.who-we-are__img {
+  max-width: 705px;
+  max-height: 560px;
+}
+.who-we-are__createx {
+  padding: 15px;
+}
+.who-we-are__header {
+  margin: 0px 0px 40px 0px;
+}
+.header {
+  color: #1e212c;
+}
+.header__subtitle {
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0px 0px 8px 0px;
+  text-transform: uppercase;
+}
+.header__title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 1.3;
+}
+.who-we-are__list {
+  margin: 0px 0px 22px 0px;
+}
+.who-we-are__button {
+}
+.button {
+  padding: 13px 30px;
+  background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+  color: white;
+  border-radius: 4px;
+  display: inline-block;
+}
+/* === (Первый блок) === Конец === 2022-10 ==================== */
+
+/* === (Второй блок) === Начало === 2022-10 ==================== */
+.about__all-courses {
+  margin: 0px 0px 180px 0px;
+}
+
+.all-courses__container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+.all-courses__header {
+  margin: 0px 0px 60px 0px;
+}
+
+.button.button_inversion {
+  color: #ff3f3a;
+  border: 2px solid #ff3f3a;
+  background: rgba(0, 128, 0, 0);
+}
+.all-courses__people:not(:last-child) {
+  margin: 0px 30px 30px 0px;
+}
+.people {
+  max-width: 700px;
+  max-height: 214px;
+  border: 1px solid #e5e8ed;
+  box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05),
+    0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+  border-radius: 4px;
+}
+.people__img {
+  max-width: 214px;
+  max-height: 214px;
+  display: inline-block;
+}
+.people__info {
+  display: inline-block;
+  vertical-align: top;
+}
+.info {
+  padding: 20px;
+  line-height: 1.5;
+}
+.info *:not(:last-child) {
+  margin: 0px 0px 20px 0px;
+}
+.info__teg {
+  color: #fff;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 0 5px;
+}
+.info__teg_green {
+  background: #03cea4;
+}
+.info__teg_blue {
+  background: #5a87fc;
+}
+.info__teg_orange {
+  background: #f89828;
+}
+.info__teg_red {
+  background: #f52f6e;
+}
+.info__lessen {
+  font-weight: 700;
+  font-size: 20px;
+  color: #1e212c;
+}
+.info__cost {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ff4242;
+}
+.info__name {
+  font-size: 18px;
+  color: #787a80;
+}
+/* === (Второй блок) === Конец === 2022-10 ==================== */
+
+/* === (Третий блок) === Начало === 2022-10 ==================== */
+
+.benefits__container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+.benefits__header {
+  margin: 0px 0px 60px 0px;
+}
+.header_center {
+  text-align: center;
+}
+.benefits__new-button {
+  margin: 0px 0px 60px 0px;
+}
+.new-button__button {
+  font-weight: 700;
+  line-height: 1.6;
+  color: #9a9ca5;
+  display: inline-block;
+  min-width: 300px;
+  min-height: 46px;
+  text-align: center;
+}
+.new-button__button_red {
+  color: #ff3f3a;
+  border: 1px solid #ff3f3a;
+  border-radius: 4px;
+  background: url("../img/svg/star.svg") 20% 50% no-repeat;
+}
+.new-button__button_feed {
+  background: url("../img/svg/shape.svg") 20% 50% no-repeat;
+}
+.new-button__button_online {
+  background: url("../img/svg/online.svg") 20% 50% no-repeat;
+}
+.new-button__button_community {
+  background: url("../img/svg/community.svg") 30% 50% no-repeat;
+}
+.benefits__description {
+  min-height: 400px;
+  background: url("../img/svg/illustration.svg") 100% 50% no-repeat;
+  padding: 100px 0px 0px 0px;
+}
+.benefits__title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.3;
+  color: #1e212c;
+  margin: 0px 0px 24px 0px;
+}
+.benefit__text {
+  line-height: 1.6;
+  color: #424551;
+  max-width: 495px;
+}
+/* === (Третий блок) === Конец=== 2022-10 ==================== */
+/* ==================== Вторая статья === (Подробнее) === Конец=== 2022-10 ==================== */
